@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucia Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: #2395cd;
+  color: #333;
+  line-height: 1.6;
+}
+/* #d0ef0a */
+h1 {
+  text-align: center;
+  color: #000606; /* Changed to a bright shade of cyan  */
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.input-container > input {
+  width: 300px;
+  height: 40px;
+  font-size: 1.25rem;
+  padding: 5px 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input-container > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  background-color: rgb(188, 19, 19);
+  margin-top: 10px;
+  
+  
+
+}
+
+.input-container > button:hover {
+  background-color: #4caf50; /* Green color when hovered */
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.todo {
+  width: 90%;
+  max-width: 600px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.todo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions > button {
+  
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    font-size: 1.05 rem;
+    margin-left: 10px;
+  
+}
+
+.actions > button:hover {
+  background-color: #000000;
+}
